@@ -1,0 +1,43 @@
+.container-fluid{
+    background: #471010;
+}
+
+.container{
+    background: #fd1b1b;
+    width: 100%;
+    padding: 20px 30px;
+}
+.row .div{
+    background: #9f64bf;
+    padding: 52px 46px;
+}
+.middle{
+    background: #1cd9dc;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+}
+.row .div2 .input{
+   margin-top:20px;
+   margin-left: 30%;
+   background: transparent;
+   border-radius: 20px;
+   /* border: none; */
+}
+.row .div2 .input:hover{
+    transition: all .3s ease;
+    transform:translateX(38px);
+    color: #fff;
+    background: #c32323;
+}
+#mybutton{
+    padding: 25px;
+    color: black;
+    background: #554545;
+    font-weight: 700;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
